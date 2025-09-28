@@ -50,22 +50,22 @@ const Nav = () => {
 
             <span className='md:hidden lg:hidden' onClick={() => setOpen(!open)}>
                 {
-                    open ?   <X className='text-red-600 lg:hodden md:hidden'></X>:<Menu className='lg:hodden md:hidden text-gray-300'></Menu>
+                    open ? <X className='text-red-600'></X> : <Menu className=' text-gray-300'></Menu>
                 }
-                <ul className={`md:hidden lg:hidden absolute right-0 duration-700 bg-black flex flex-col gap-2 text-[12px]
-                    ${
-                        open?'top-14 right-10':'-top-30 right-10 lg:right-0 opacity-[0%]'
+                <ul className={` absolute right-0 duration-700 bg-black flex flex-col gap-2 text-[12px]
+                    ${open ? 'top-14 right-10' : '-top-30 right-10 lg:right-0 opacity-[0%]'
                     }
                     
                     
                     `}>
-                    {menuItems} 
-                    
-                   
+                    {menuItems}
+
+
+                    <button className='px-3 py-1 bg-gray-800 mb-2 '>Sign In</button>
                 </ul>
-                
+
             </span>
-           <button className='lg:flex hidden md:block'>Sign In</button>
+            <button className='lg:flex hidden md:block'>Sign In</button>
 
         </div>
 
