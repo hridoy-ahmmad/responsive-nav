@@ -48,13 +48,13 @@ const Nav = () => {
                 }
             </ul>
 
-            <span onClick={() => setOpen(!open)}>
+            <span className='md:hidden lg:hidden' onClick={() => setOpen(!open)}>
                 {
                     open ?   <X className='text-red-600 lg:hodden md:hidden'></X>:<Menu className='lg:hodden md:hidden text-gray-300'></Menu>
                 }
                 <ul className={`md:hidden lg:hidden absolute right-0 duration-700 bg-black flex flex-col gap-2 text-[12px]
                     ${
-                        open?'top-14 right-10':'-top-30 right-10 opacity-[0%]'
+                        open?'top-14 right-10':'-top-30 right-10 lg:right-0 opacity-[0%]'
                     }
                     
                     
