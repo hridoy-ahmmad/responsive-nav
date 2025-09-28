@@ -15,8 +15,8 @@ const PricingCard = ({ price }) => {
             </div>
 
             <h2 className='text-5xl font-bold'>  {pricing} </h2>
-            <h6 className='text-xl mt-3 border-b-1 border-gray-500 pb-3 h-[100px]'> {description} </h6>
-            <div className='mt-5'>
+            <h6 className='text-xl my-10  border-gray-500   h-[100px]'> {description} </h6>
+            <div className=' mb-8 border-t border-gray-500 pt-10 '>
                 {
                     feature.map((features, index) => <PricingFeature features={features} key={index} ></PricingFeature>)
                 }
