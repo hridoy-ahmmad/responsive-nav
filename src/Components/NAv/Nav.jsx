@@ -47,7 +47,6 @@ const Nav = () => {
                     menuItems
                 }
             </ul>
-
             <span className='md:hidden lg:hidden' onClick={() => setOpen(!open)}>
                 {
                     open ? <X className='text-red-600'></X> : <Menu className=' text-gray-300'></Menu>
@@ -55,18 +54,12 @@ const Nav = () => {
                 <ul className={` absolute right-0 duration-700 bg-black flex flex-col gap-2 text-[12px]
                     ${open ? 'top-14 right-10' : '-top-30 right-10 lg:right-0 opacity-[0%]'
                     }
-                    
-                    
                     `}>
                     {menuItems}
-
-
                     <button className='px-3 py-1 bg-gray-800 mb-2 '>Sign In</button>
                 </ul>
-
             </span>
             <button className='lg:flex hidden md:block'>Sign In</button>
-
         </div>
 
 

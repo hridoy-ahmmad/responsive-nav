@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Personal Training",
+    "description": "Get dedicated one-on-one sessions with a certified trainer to achieve your fitness goals faster.",
+    "feature": [
+      "One-on-one customized workouts",
+      "Progress tracking with trainer",
+      "Flexible schedule",
+      "Goal-oriented workout plans"
+    ],
+    "pricing": "$50/session"
+  },
+  {
+    "id": 2,
+    "name": "Strength Training",
+    "description": "Build muscle and improve strength with structured weight training programs for all levels.",
+    "feature": [
+      "Progressive resistance programs",
+      "Free weights & machines access",
+      "Muscle growth monitoring",
+      "Beginner to advanced plans"
+    ],
+    "pricing": "$120/month"
+  },
+  {
+    "id": 3,
+    "name": "Cardio Workouts",
+    "description": "Boost stamina, burn fat, and improve heart health with a variety of cardio-based exercises.",
+    "feature": [
+      "HIIT training sessions",
+      "Treadmill, cycling, rowing machines",
+      "Fat-burning routines",
+      "Endurance improvement plans"
+    ],
+    "pricing": "$100/month"
+  },
+  {
+    "id": 4,
+    "name": "Yoga & Flexibility",
+    "description": "Enhance flexibility, reduce stress, and achieve mindfulness through guided yoga sessions.",
+    "feature": [
+      "Guided yoga classes",
+      "Stress relief techniques",
+      "Posture correction",
+      "Breathing & mindfulness practice"
+    ],
+    "pricing": "$80/month"
+  },
+  {
+    "id": 5,
+    "name": "Nutrition Coaching",
+    "description": "Receive expert guidance on diet, nutrition, and healthy eating to complement your training.",
+    "feature": [
+      "Personalized meal plans",
+      "Calorie & macro tracking",
+      "Weight management guidance",
+      "Supplements recommendations"
+    ],
+    "pricing": "$60/month"
+  }
+]
